@@ -82,5 +82,45 @@ char*** groupAnagrams(char** strs, int strsSize, int* returnSize, int** returnCo
 
 ```
 
+## C++:
+* C++/Python 可以用 hashmap，簡單很多
+```cpp
+class Solution {
+public:
+    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        unordered_map<string, vector<string>> tb;
+        for (auto const &str: strs) {
+            string sorted = str;
+            sort(sorted.begin(), sorted.end());
+            tb[sorted].push_back(str);
+        }
+        
+        vector<vector<string>> res;
+        for (auto const& pair : tb) {
+            vector<string> group;
+            for (auto const& ori : pair.second)
+                group.push_back(ori);
+            res.push_back(group);
+        }
+        return res;
+    }
+};
+```
+
+## Python:
+```python
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        tb = {}
+        for word in strs:
+            sorted_str = "".join(sorted(word))
+            if sorted_str not in tb:
+                tb[sorted_str] = [word, ]
+            else:
+                tb[sorted_str].append(word)
+        return [[ori for ori in tb[sorted_str]] for sorted_str in tb]
+     
+```
+
 
 
