@@ -1,4 +1,4 @@
-# 0049. Group Anagrams
+# 49. Group Anagrams
 ###### `medium` `sorting` `array`
 
 Given an array of strings strs, group the anagrams together. You can return the answer in any order.
@@ -8,7 +8,6 @@ An Anagram is a word or phrase formed by rearranging the letters of a different 
  
 
 Example 1:
-
 > Input: strs = ["eat","tea","tan","ate","nat","bat"]
 Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
 
