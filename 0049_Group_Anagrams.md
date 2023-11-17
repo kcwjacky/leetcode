@@ -19,6 +19,7 @@ Example 3:
 > Input: strs = ["a"]
 Output: [["a"]]
 
+---
 
 ## C:
 
