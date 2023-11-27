@@ -97,10 +97,7 @@ public:
         
         vector<vector<string>> res;
         for (auto const& pair : tb) {
-            vector<string> group;
-            for (auto const& ori : pair.second)
-                group.push_back(ori);
-            res.push_back(group);
+            res.push_back(pair.second);
         }
         return res;
     }
