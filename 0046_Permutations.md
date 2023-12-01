@@ -17,6 +17,8 @@ Output: [[1]]
 
 ---
 
+Using backtracking to generate all possible permutations by recursively considering both "take" and "not take" the element that has not been taken. Once every element has been taken, the exploration for one permutation is finished (base case).
+
 ## C
 
 ```cpp
