@@ -1,9 +1,7 @@
 # 1436. Destination City
 ###### `easy` `hash table` `sorting`
 
-::: info
-此問題的 C 語言解法有用到對字元陣列做排序
-:::
+> 此問題的 C 語言解法有用到對字元陣列做排序
 
 You are given the array paths, where paths[i] = [cityAi, cityBi] means there exists a direct path going from cityAi to cityBi. Return the destination city, that is, the city without any path outgoing to another city.
 

@@ -1,5 +1,5 @@
 # 21. Merge Two Sorted Lists
-###### `easy` `linked list` `recursion`
+###### `easy` `linked list` `recursion` `indirect pointer`
 
 You are given the heads of two sorted linked lists list1 and list2.
 
