@@ -1,5 +1,5 @@
 # 190. Reverse Bits
-###### `Divide and Conquer` `Bit Manipulation` `easy`
+###### `divide and conquer` `bit manipulation` `easy`
 
 Reverse bits of a given 32 bits unsigned integer.
 

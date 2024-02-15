@@ -1,5 +1,5 @@
 # 151. Reverse Words in a String
-###### `medium` `Two Pointers` `strtok` `String`
+###### `medium` `two pointers` `strtok` `string`
 
 ---
 
